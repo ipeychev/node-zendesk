@@ -79,7 +79,7 @@
     }
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "clean:dist": "npx rimraf ./dist",
