@@ -339,12 +339,10 @@ class ZendeskClient {
    * @private
    */
   _debug(args) {
-    if (this.config.debug) {
-      if (args.result) {
-        args.result = String(args.result);
-      }
+    if (arguments_.type === 'debug::result') {
+      arguments_.result = String(arguments_.result);
 
-      this.logger.debug(args);
+      this.logger.debug(JSON.stringify(arguments_));
     }
   }
 }
