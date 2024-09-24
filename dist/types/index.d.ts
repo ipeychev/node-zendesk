@@ -178,7 +178,7 @@ export class ZendeskClient {
     get agentactivity(): import("./clients/voice/agentactivity").AgentActivity;
     get availabilities(): import("./clients/voice/availabilities").Availabilities;
     /**
-     * @param {object} args - Arguments for debugging.
+     * @param {object} arguments_ - Arguments for debugging.
      * @private
      */
     private _debug;

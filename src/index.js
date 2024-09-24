@@ -335,10 +335,10 @@ class ZendeskClient {
   }
 
   /**
-   * @param {object} args - Arguments for debugging.
+   * @param {object} arguments_ - Arguments for debugging.
    * @private
    */
-  _debug(args) {
+  _debug(arguments_) {
     if (arguments_.type === 'debug::result') {
       arguments_.result = String(arguments_.result);
 
